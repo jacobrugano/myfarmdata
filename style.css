@@ -357,7 +357,10 @@ body {
 }
 
 
-
+#buttonss{
+	height: 36px;
+	margin-right: 10px;
+}
 
 #content main .box-info {
 	display: grid;
@@ -507,10 +510,12 @@ body {
 	cursor: pointer;
 }
 #content main .table-data .todo .todo-list li.completed {
-	border-left: 10px solid var(--blue);
+	border-left: 80px solid var(--blue);
+	height: 46px;
 }
 #content main .table-data .todo .todo-list li.not-completed {
-	border-left: 10px solid var(--orange);
+	border-left: 120px solid var(--red);
+	height: 46px;
 }
 #content main .table-data .todo .todo-list li:last-child {
 	margin-bottom: 0;
