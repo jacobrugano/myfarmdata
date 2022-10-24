@@ -532,6 +532,7 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
 	#sidebar {
 		width: 200px;
 	}
@@ -552,6 +553,7 @@ body {
 
 
 @media screen and (max-width: 576px) {
+	
 	#content nav form .form-input input {
 		display: none;
 	}
